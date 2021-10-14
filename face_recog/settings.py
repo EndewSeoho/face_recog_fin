@@ -23,12 +23,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-yt*+yda5op3cs6fi$id7v9)fwramt)f+tlursorbqymuk-p$h0'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*',
                  # 'localhost',
                  # '127.0.0.1',
                  '52.79.169.124',
+                 'withimgpu.com',
                  ]
 
 
