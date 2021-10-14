@@ -17,14 +17,14 @@ def enroll_img(id, company, image):
     ftp.cwd('./face_recog_img')
     filename = str(company) + "_" + str(id) + ".jpg"
     img = cv2.imdecode(np.fromstring(image, dtype=np.uint8), cv2.IMREAD_UNCHANGED)
-    save_route = "C:/Users/withmind/Desktop/face_recog_fin/save_img/"
-    # save_route_server = "/home/ubuntu/face_recog_fin/save_img/"
-    cv2.imwrite(save_route + filename, img)
-    upload_img = open(save_route + filename, 'rb')
+    # save_route = "C:/Users/withmind/Desktop/face_recog_fin/save_img/"
+    save_route_server = "/home/ubuntu/face_recog_fin/save_img/"
+    cv2.imwrite(save_route_server + filename, img)
+    upload_img = open(save_route_server + filename, 'rb')
     ftp.storbinary('STOR ' + filename, upload_img)
     upload_img.close()
     ftp.close()
-    os.remove(save_route + filename)
+    os.remove(save_route_server + filename)
     server_route = "https://withmind.cache.smilecdn.com/face_recog_img/"
 
     # res = FaceRecogApi(id = id, gender = gender, age = age, company = company, image = server_route + filename)
