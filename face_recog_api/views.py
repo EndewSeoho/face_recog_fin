@@ -54,4 +54,3 @@ def analy_img(request):
         response_dict = {"result": "Fail"}
 
         return JsonResponse(response_dict)
-git
