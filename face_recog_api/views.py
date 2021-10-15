@@ -9,10 +9,10 @@ from .models import *
 def enrollment_img(request):
     try:
         id = request.POST["ID"]
-        company = request.POST["company"]
-        age = request.POST["age"]
-        gender = request.POST["gender"]
-        image = request.FILES["existing_image"].read()
+        company = request.POST["COMPANY"]
+        age = request.POST["AGE"]
+        gender = request.POST["GENDER"]
+        image = request.FILES["IMAGE"].read()
 
         result = enroll_img(id, company, image)
 
@@ -41,8 +41,8 @@ def analy_img(request):
 
     try:
         id = request.POST["ID"]
-        company = request.POST["company"]
-        image = request.FILES["analysis_image"].read()
+        company = request.POST["COMPANY"]
+        image = request.FILES["IMAGE"].read()
 
         result = face_analy(id, company, image)
 

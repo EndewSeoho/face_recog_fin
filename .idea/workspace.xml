@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f4571dc9-917c-4706-9bd6-7563684fc9b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1zTzN86BJZ9OsD8klLwVX1ZOX2q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f4571dc9-917c-4706-9bd6-7563684fc9b2" name="Default Changelist" comment="" />
+      <created>1634186822305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634186822305</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1170" y="0" width="1281" height="1027" key="dock-window-1" timestamp="1634203830119">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1170" y="0" width="1281" height="1027" key="dock-window-1/0.0.2560.1040/2560.-75.1920.1040@0.0.2560.1040" timestamp="1634203830119" />
+    <state x="2560" y="237" width="1921" height="546" key="dock-window-2" timestamp="1634203830119">
+      <screen x="2560" y="-75" width="1920" height="1040" />
+    </state>
+    <state x="2560" y="237" width="1921" height="546" key="dock-window-2/0.0.2560.1040/2560.-75.1920.1040@0.0.2560.1040" timestamp="1634203830119" />
+  </component>
+</project>
