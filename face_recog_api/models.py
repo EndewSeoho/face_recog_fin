@@ -12,9 +12,11 @@ class FaceRecogApi(models.Model):
     gender = models.IntegerField(db_column='GENDER', blank=True, null=True)  # Field name made lowercase.
     age = models.IntegerField(db_column='AGE', blank=True, null=True)  # Field name made lowercase.
     company = models.CharField(db_column='COMPANY', max_length=100)  # Field name made lowercase.
+    datetime = models.DateTimeField(auto_now_add=True)  # Field name made lowercase.
 
     class Meta:
         managed = False
         db_table = 'FACE_RECOG_API'
+
 
 

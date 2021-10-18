@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f4571dc9-917c-4706-9bd6-7563684fc9b2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/face_recog_api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/face_recog_api/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../video_analy/video_async" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,6 +35,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1060" y="275" key="FileChooserDialogImpl" timestamp="1634518116827">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1060" y="275" key="FileChooserDialogImpl/0.0.2560.1040/2560.-75.1920.1040@0.0.2560.1040" timestamp="1634518116827" />
     <state x="1170" y="0" width="1281" height="1027" key="dock-window-1" timestamp="1634203830119">
       <screen x="0" y="0" width="2560" height="1040" />
     </state>
