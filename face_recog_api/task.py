@@ -21,6 +21,7 @@ def enroll_img(id, company, image):
     # save_route = "C:/Users/withmind/Desktop/fin_project/face_recog_fin/save_img/"
     save_route_server = "/home/ubuntu/face_recog_fin/save_img/"
     cv2.imwrite(save_route_server + filename, img)
+    print("저장완료")
     upload_img = open(save_route_server + filename, 'rb')
     ftp.storbinary('STOR ' + filename, upload_img)
     upload_img.close()
