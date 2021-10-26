@@ -9,8 +9,10 @@ import ssl
 import requests
 from .models import *
 import time
+from celery import shared_task
 
 
+@shared_task
 def enroll_img(id, company, image):
     ftp = FTP()
     ftp.connect('withmind.cache.smilecdn.com', 21)
@@ -38,6 +40,7 @@ def enroll_img(id, company, image):
 
     return result
 
+@shared_task
 def face_analy(id, company, image):
     enrollment_img_db = FaceRecogApi.objects.filter(id=id, company=company)
     enrollment_img_url = enrollment_img_db[0].image

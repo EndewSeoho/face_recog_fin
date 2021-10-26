@@ -15,7 +15,7 @@ def enrollment_img(request):
         gender = request.POST["gender"]
         image = request.FILES["image"].read()
 
-        result = enroll_img(id, company, image)
+        result = enroll_img(id, company, image).delay()
 
         # print(len(image))
 
@@ -52,7 +52,7 @@ def analy_img(request):
         company = request.POST["company"]
         image = request.FILES["image"].read()
 
-        result = face_analy(id, company, image)
+        result = face_analy(id, company, image).delay()
 
         response_dict = {"result" : result}
 
