@@ -7,7 +7,7 @@ from .models import *
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def enrollment_img(request):
-    # try:
+    try:
 
         id = request.POST["id"]
         company = request.POST["company"]
@@ -37,10 +37,10 @@ def enrollment_img(request):
 
         return JsonResponse(response_dict)
 
-    # except Exception as e:
-    #     response_dict = {"result": "Fail"}
-    #
-    #     return JsonResponse(response_dict)
+    except Exception as e:
+        response_dict = {"result": "Fail"}
+
+        return JsonResponse(response_dict)
 
 
 @api_view(['POST'])
