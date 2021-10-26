@@ -16,16 +16,23 @@ def enrollment_img(request):
 
         result = enroll_img(id, company, image)
 
-        if age=='':
+        # print(len(image))
+
+        if age =='':
             age = None
         if gender == '':
             gender = None
 
-        res = FaceRecogApi(id = id, gender = gender, age = age, company = company, image = result)
 
-        res.save()
+        if len(image) < 307200 or len(image) > 502000:
+            response_dict = {"result": "ZZZZZZZZZZZZ"}
+        else:
 
-        response_dict = {"result": "Success"}
+            res = FaceRecogApi(id = id, gender = gender, age = age, company = company, image = result)
+
+            res.save()
+
+            response_dict = {"result": "Success"}
 
         return JsonResponse(response_dict)
 
