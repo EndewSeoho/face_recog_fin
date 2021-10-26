@@ -3,7 +3,7 @@ import os
 from celery import Celery
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'face_recog.settings')
-app = Celery('face_recog_fin',backend='redis://', broker='redis://localhost:6379/0')
+app = Celery('face_recog',backend='redis://', broker='redis://localhost:6379/0')
 app.config_from_object('django.conf:settings', namespace='CELERY')
 app.autodiscover_tasks()
 
