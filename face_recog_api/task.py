@@ -36,7 +36,7 @@ def enroll_img(id, company, image):
     # res.save()
 
     result = server_route + filename
-    time.sleep(10)
+    # time.sleep(10)
 
     return result
 
